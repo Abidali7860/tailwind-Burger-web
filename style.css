@@ -1,0 +1,8 @@
+.tabs_wrap ul li:hover{
+    background-color: #d5a71b;
+    color: black;
+}
+.tabs_wrap ul li.active{
+    background-color: #d5a71b;
+    color: black;
+}

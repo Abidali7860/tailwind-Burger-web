@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    body{
+         color: white;
+        background-color: #01595e;
+        font-family: sans-serif; 
+        
+    }
+    section{
+       @apply pt-16 pb-4 md:pt-20
+    }
+}
+@layer utilities{
+    .home__title{
+        @apply text-4xl font-serif font-bold uppercase lg:text-6xl
+    }
+}
